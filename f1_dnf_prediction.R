@@ -5,12 +5,15 @@
 # =============================================
 
 # ---- Step 1: Install & Load required libraries ----
-install.packages(c("randomForest", "caret", "rpart", "rpart.plot", "ggplot2"))
-library(randomForest)
-library(caret)
+install.packages("rpart")
 library(rpart)
 library(rpart.plot)
+install.packages("ggplot2")
 library(ggplot2)
+install.packages("caret")
+install.packages("randomForest")|
+library(randomForest)
+library(caret)
 
 # ---- Step 2: Read your dataset ----
 f1 <- read.csv("f1_dnf.csv")
