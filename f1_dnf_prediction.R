@@ -11,7 +11,7 @@ library(rpart.plot)
 install.packages("ggplot2")
 library(ggplot2)
 install.packages("caret")
-install.packages("randomForest")|
+install.packages("randomForest")
 library(randomForest)
 library(caret)
 
