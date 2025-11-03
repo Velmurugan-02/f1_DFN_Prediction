@@ -20,7 +20,7 @@ f1 <- read.csv("f1_dnf.csv")
 f1 <- na.omit(f1)
 
 # ---- Step 4: Convert target column to factor ----
-f1$DNF <- as.factor(f1$DNF)
+f1$DNF <- as.factor(f1$target_finish)
 
 # ---- Step 5: Split the dataset into training and testing ----
 set.seed(123)
