@@ -6,6 +6,7 @@
 
 # ---- Step 1: Install & Load required libraries ----
 install.packages("rpart")
+install.packages("rpart.plot")
 library(rpart)
 library(rpart.plot)
 install.packages("ggplot2")
@@ -14,6 +15,10 @@ install.packages("caret")
 install.packages("randomForest")
 library(randomForest)
 library(caret)
+
+# ---- Setting the path for accessing the path files in locally ---- 
+getwd()
+setwd("C:/Users/91824/Documents/Velmurugan_717824Z154/R_project")
 
 # ---- Step 2: Read your dataset ----
 f1 <- read.csv("f1_dnf.csv")
