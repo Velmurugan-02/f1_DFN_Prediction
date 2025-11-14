@@ -25,6 +25,7 @@ f1 <- read.csv("f1_dnf.csv")
 
 # ---- Step 3: Clean the data (optional) ----
 # Remove missing values if any
+sum(is.na(f1))
 f1 <- na.omit(f1)
 
 # ---- Step 4: Convert target column to factor ----
